@@ -1,2 +1,5 @@
 # posture-corrector-yolov7
 To reduce the harmful effects of bad posture caused by prolonged sitting in front of computers or extended use of phones, we propose an intelligent alarm system based on pose estimation. This alarm system, created using deep learning algorithm YOLOV7 and machine learning classification algorithms, will detect the user's posture and alert them to change their bad habits, such as slouching or slumping their head, by adopting simple rules and developing good habits to follow in their day-to-day routine.
+The proposed solution enables real-time predictions using machine learning techniques.
+
+To achieve this, it first utilizes a model called YOLOV7, which estimates the poses of people detected in an image or video. Next, the obtained poses are analyzed using a classification model to determine the corresponding pose category for each image/frame. Finally, by combining the information provided by these two models, it becomes possible to make real-time predictions about the presence and category of objects in the observed scene. This solution is particularly useful for obtaining results quickly and with high precision.
